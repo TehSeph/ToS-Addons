@@ -1,0 +1,7 @@
+* text=auto
+
+*.lua eol=crlf
+*.json eol=crlf
+*.md eol=crlf
+
+*.ipf binary
