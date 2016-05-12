@@ -3,5 +3,6 @@
 *.lua eol=crlf
 *.json eol=crlf
 *.md eol=crlf
+*.xml eol=crlf
 
 *.ipf binary
