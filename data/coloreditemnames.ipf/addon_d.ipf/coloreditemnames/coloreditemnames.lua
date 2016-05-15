@@ -8,6 +8,6 @@ function COLOREDITEMNAMES_ON_INIT(addon, frame)
 	COLOREDITEMNAMES.addon = addon;
 	COLOREDITEMNAMES.frame = frame;
 
-	dofile("../addons/coloreditemnames/coloreditemnames.lua");
+	dofile("../addons/coloreditemnames.lua");
 
 end
