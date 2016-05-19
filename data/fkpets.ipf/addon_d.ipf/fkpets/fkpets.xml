@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uiframe name="fkpets" x="420" y="30" width="280" height="100" create="open">
+	<frame title="Reload Addon" snapclient="true" snapframe="true" layout_gravity="top left" margin="420 30 0 0"/>
+	<option visible="true" closebutton="false" useimageitem="true" piptype="right" autoopen="true" hideable="false"/>
+	<input hittestframe="true"/>
+	<layer layerlevel="31"/>
+	<draw blend="100" drawtitlebar="false" drawframe="false"/>
+	<controls>
+		<button name="open_changejobui" rect="0 0 240 80" margin="0 0 0 0" layout_gravity="center center" MouseOffAnim="btn_mouseoff" MouseOnAnim="btn_mouseover" caption="{@st43}Reload Addon" clicksound="button_click_3" oversound="button_cursor_over_2" skin="btn_lv3" LBtnDownScp="dofile(&apos;..\\addons\\fkpets.lua&apos;);">
+            <uieffect effect="I_screen_button" scale="63" overlab="No" sound="None" offset="0 0" playtime="1" duration="1" conditon="active" event="LBUTTONDOWN"/>
+        </button>
+    </controls>
+</uiframe>
