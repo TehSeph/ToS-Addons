@@ -19,6 +19,12 @@ Colorizes item names *_everywhere_* based on the item's grade/rarity (not stars)
 
 *TODO: Icon outlines, colored item drop names, item drop names always shown.*
 
+### F**k Pets! - v1.0.0
+
+Hides pet stats and disables the annoying pet ring-menu. No more pets getting in the way of talking to NPCs or accidentally opening their menu in the middle of a fight! Fuck pets!
+
+*TODO: Disable targeting for pets.*
+
 ---
 
 # FAQ
