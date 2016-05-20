@@ -23,7 +23,7 @@ Colorizes item names *_everywhere_* based on the item's grade/rarity (not stars)
 
 Hides pet stats and disables the annoying pet ring-menu. No more pets getting in the way of talking to NPCs or accidentally opening their menu in the middle of a fight! Fuck pets!
 
-*TODO: Disable targeting for pets.*
+*TODO: Disable targeting on pets.*
 
 ---
 
