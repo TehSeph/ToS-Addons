@@ -41,6 +41,10 @@ Rather than say what they might conflict with it's easier for me to just give yo
 - https://github.com/Excrulon/Tree-of-Savior-Lua-Mods
 - https://github.com/fiote/treeofsavior-addons
 - https://github.com/Miei/TOS-lua
+- https://github.com/MizukiBelhi/ExtendedUI
+- https://github.com/MrJul/ToS-EnhancedCollection
+- https://github.com/WillTheDoggy/Doggy-ToS-Addons
+- https://github.com/Xanaxiel/ToS-Addons
 
 If you still have questions or concerns, join our ToS Addon Discord server https://discord.gg/0yyOKTr8o3OdJTxa
 
