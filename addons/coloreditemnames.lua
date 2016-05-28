@@ -12,6 +12,7 @@ function COLOREDITEMNAMES.getItemRarityColor(itemObj)
 	end
 
 	if (itemProp.setInfo ~= nil) then return "00FF00"; -- set piece
+	elseif (grade == 0) then return "FFBF33"; -- premium
 	elseif (grade == 1) then return "FFFFFF"; -- common
 	elseif (grade == 2) then return "108CFF"; -- rare
 	elseif (grade == 3) then return "9F30FF"; -- epic
