@@ -1,3 +1,6 @@
+# IMC Data Files
+data/*
+
 # Tools
 build/.tmp/*
 build/.tools/*
@@ -6,3 +9,6 @@ build/.tools/*
 # Releases
 build/☕*.ipf
 build/all-addons-*.zip
+
+# Project Files
+*.sublime-*
