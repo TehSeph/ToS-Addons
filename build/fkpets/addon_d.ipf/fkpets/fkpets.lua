@@ -1,3 +1,17 @@
+if _G["ADDONS"] == nil then _G["ADDONS"] = {}; end
+
+_G["ADDONS"]["FKPETS"] = {};
+FKPETS = _G["ADDONS"]["FKPETS"];
+
+function FKPETS_ON_INIT(addon, frame)
+
+	FKPETS.addon = addon;
+	FKPETS.frame = frame;
+
+	FKPETS.init();
+
+end
+
 function FKPETS.fkMenus(actor, isOn)
 	return; -- Do nothing
 end
@@ -51,5 +65,3 @@ function FKPETS.init()
 	end
 
 end
-
-FKPETS.init();

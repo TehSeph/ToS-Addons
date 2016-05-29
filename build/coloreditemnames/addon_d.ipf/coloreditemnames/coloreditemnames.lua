@@ -1,3 +1,17 @@
+if _G["ADDONS"] == nil then _G["ADDONS"] = {}; end
+
+_G["ADDONS"]["COLOREDITEMNAMES"] = {};
+COLOREDITEMNAMES = _G["ADDONS"]["COLOREDITEMNAMES"];
+
+function COLOREDITEMNAMES_ON_INIT(addon, frame)
+
+	COLOREDITEMNAMES.addon = addon;
+	COLOREDITEMNAMES.frame = frame;
+
+	COLOREDITEMNAMES.init();
+
+end
+
 function COLOREDITEMNAMES.getItemRarityColor(itemObj)
 
 	local itemProp = geItemTable.GetProp(itemObj.ClassID);
@@ -93,5 +107,3 @@ function COLOREDITEMNAMES.init()
 	end
 
 end
-
-COLOREDITEMNAMES.init();

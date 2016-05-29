@@ -1,2 +1,8 @@
-/releases
-☕*.ipf
+# Tools
+build/.tmp/*
+build/.tools/*
+!build/.tools/README.md
+
+# Releases
+build/☕*.ipf
+build/all-addons-*.zip
