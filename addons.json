@@ -1,0 +1,30 @@
+[
+  {
+    "name" : "Colored Item Names",
+    "file" : "coloreditemnames",
+    "extension" : "ipf",
+    "fileVersion" : "v1.0.0",
+    "releaseVersion" : "hanaming",
+    "unicode" : "☕",
+    "description" : "Colorizes item names everywhere based on the item's grade/rarity (not stars). Also colors any set pieces green and colors any recipes by their crafted item's rarity instead of their own rarity.",
+    "tags" : [
+      "colors",
+      "items",
+      "ui"
+    ]
+  },
+  {
+    "name" : "F**k Pets!",
+    "file" : "fkpets",
+    "extension" : "ipf",
+    "fileVersion" : "v1.0.0",
+    "releaseVersion" : "v1.0.0",
+    "unicode" : "☕",
+    "description" : "Hides pet stats and disables the annoying pet ring-menu. No more pets getting in the way of talking to NPCs or accidentally opening their menu in the middle of a fight!",
+    "tags" : [
+      "disables features",
+      "pets",
+      "ui"
+    ]
+  }
+]
