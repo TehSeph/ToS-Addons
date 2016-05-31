@@ -22,4 +22,7 @@ function DEVLOADER_ON_INIT(addon, frame)
 		DEVLOADER.init();
 	end
 
+	-- Always show the DevLoader buton!
+	DEVLOADER.frame:ShowWindow(1);
+
 end
