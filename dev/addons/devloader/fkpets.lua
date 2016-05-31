@@ -50,11 +50,8 @@ function FKPETS.init()
 
 		FKPETS.setHooks(FKPETS.fkMenus, "DIALOG_COMPANION");
 		FKPETS.setHooks(FKPETS.fkStats, "UPDATE_COMPANION_TITLE");
-
-		FKPETS.frame:ShowWindow(1);
+		ui.SysMsg("[DEVLOADER] F**k Pets loaded!");
 		FKPETS.isLoaded = true;
-
-		ui.SysMsg("[ADDON] F**k Pets loaded!");
 
 	--end
 

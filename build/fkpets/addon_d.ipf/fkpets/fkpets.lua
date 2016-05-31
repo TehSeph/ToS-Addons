@@ -1,15 +1,14 @@
+--[[ v1.0.0 ]]--
+
 if _G["ADDONS"] == nil then _G["ADDONS"] = {}; end
 
 _G["ADDONS"]["FKPETS"] = {};
 FKPETS = _G["ADDONS"]["FKPETS"];
 
 function FKPETS_ON_INIT(addon, frame)
-
 	FKPETS.addon = addon;
 	FKPETS.frame = frame;
-
 	FKPETS.init();
-
 end
 
 function FKPETS.fkMenus(actor, isOn)
@@ -56,11 +55,8 @@ function FKPETS.init()
 
 		FKPETS.setHooks(FKPETS.fkMenus, "DIALOG_COMPANION");
 		FKPETS.setHooks(FKPETS.fkStats, "UPDATE_COMPANION_TITLE");
-
-		FKPETS.frame:ShowWindow(1);
+		--ui.SysMsg("[DEVLOADER] F**k Pets loaded!");
 		FKPETS.isLoaded = true;
-
-		ui.SysMsg("[ADDON] F**k Pets loaded!");
 
 	end
 

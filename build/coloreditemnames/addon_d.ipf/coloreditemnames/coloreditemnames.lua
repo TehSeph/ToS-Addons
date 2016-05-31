@@ -1,15 +1,14 @@
+--[[ v1.0.1 ]]--
+
 if _G["ADDONS"] == nil then _G["ADDONS"] = {}; end
 
 _G["ADDONS"]["COLOREDITEMNAMES"] = {};
 COLOREDITEMNAMES = _G["ADDONS"]["COLOREDITEMNAMES"];
 
 function COLOREDITEMNAMES_ON_INIT(addon, frame)
-
 	COLOREDITEMNAMES.addon = addon;
 	COLOREDITEMNAMES.frame = frame;
-
 	COLOREDITEMNAMES.init();
-
 end
 
 function COLOREDITEMNAMES.getItemRarityColor(itemObj)
@@ -98,11 +97,8 @@ function COLOREDITEMNAMES.init()
 
 		COLOREDITEMNAMES.setHooks(COLOREDITEMNAMES.getColoredName, "GET_FULL_NAME");
 		COLOREDITEMNAMES.setHooks(COLOREDITEMNAMES.linkItem, "LINK_ITEM_TEXT");
-
-		COLOREDITEMNAMES.frame:ShowWindow(1);
+		--ui.SysMsg("[DEVLOADER] Colored Item Names loaded!");
 		COLOREDITEMNAMES.isLoaded = true;
-
-		ui.SysMsg("[ADDON] Colored Item Names loaded!");
 
 	end
 
