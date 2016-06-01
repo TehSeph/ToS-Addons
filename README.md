@@ -4,8 +4,8 @@ The files in this repo are for development only. To use these addons in your gam
 
 Usually this is something like `C:\Program Files\Steam\SteamApps\common\TreeOfSavior\`
 
-Before extracting, make sure every ipf file in the `data` folder of the zip has a `☕` in front (example: `☕coloreditemnames.ipf`)
-If any of them don't: After extracting, rename it so it does. This is important. See the [FAQ](https://github.com/TehSeph/tos-addons#why-is-there-a--symbol-in-front-of-your-addons) below if you don't know why.
+Before extracting, make sure the name of every ipf file in the `data` folder of the zip starts with `☕` (`☕coloreditemnames.ipf`)
+If any of them don't: After extracting, rename them so they do. This is important. See the [FAQ](https://github.com/TehSeph/tos-addons#why-is-there-a--symbol-in-front-of-your-addons) below if you don't know why.
 
 ---
 
