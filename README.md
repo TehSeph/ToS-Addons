@@ -30,7 +30,14 @@ Hides pet stats and disables the annoying pet ring-menu. No more pets getting in
 # FAQ
 
 ### Are these addons safe/approved by IMC?
-This has got to be the most asked question any addon author gets. It's also the stupidest question anyone ever asks. IMC doesn't have the time to go around approving every addon that shows up on the reddit homepage. They would rather spend their time working on bugfixes, new content, and managing their game. Waiting for an addon to get "approved" before using it is a good way to never use any addons ever. For the same reasons, IMC also isn't going to go around banning people for using addons. If you honestly believe this, then you're not very bright. Sorry, thems tha facts yo!
+
+https://treeofsavior.com/news/?n=467
+
+> We have no plans on restricting add-ons that conveniently display information which can be obtained from external communities or between users.
+
+> However, we are sternly against add-ons that allow abnormal gameplay such as being able to use NPC stores on a field or an auto-play program. Those are prohibited and its user is liable to be banned.
+
+I'd say that's a yes. None of my addons will ever fall into that second category, so you're free to use them.
 
 ### Why is there a `☕` symbol in front of your addons?
 Because I love coffee, duh. And also because this is an exploit found to load ipf files into the game without having to modify the official files, like [Excrulon](https://github.com/Excrulon/Tree-of-Savior-Lua-Mods)'s `SumAni.ipf` edit. How? Well, when the game's patcher starts, it deletes any new files that are not in the list of original files. But for some reason or another (maybe just dumb luck) this process ignores files with a unicode character in their names. However when the client itself loads the files, it just loads the entire folder, including the files with unicode characters! By exploiting this, addon authors have found a way to cleanly load our addons into the game without the need to create new addon updates every time an official patch is made to the file we were previously modifying.
