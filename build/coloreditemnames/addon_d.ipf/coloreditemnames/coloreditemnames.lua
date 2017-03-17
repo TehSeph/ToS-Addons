@@ -1,4 +1,4 @@
---[[ v1.0.1 ]]--
+--[[ v1.0.1 iToS's Hunting ground fix ]]--
 
 if _G["ADDONS"] == nil then _G["ADDONS"] = {}; end
 
@@ -67,7 +67,7 @@ function COLOREDITEMNAMES.linkItem(invItem)
 		itemName = itemName .. "(" .. skillClass.Name ..")";
 		properties = GetSkillItemProperiesString(itemObj);
 	else
-		properties = GetModifiedProperiesString(itemObj);
+		properties = GetModifiedPropertiesString(itemObj);
 	end
 
 	if (properties == "") then properties = 'nullval'; end
