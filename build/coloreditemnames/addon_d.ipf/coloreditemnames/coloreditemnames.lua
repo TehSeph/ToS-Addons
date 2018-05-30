@@ -1,4 +1,4 @@
---[[ v1.0.1 iToS's Hunting ground fix ]]--
+--[[ v1.0.2 ]]--
 
 if _G["ADDONS"] == nil then _G["ADDONS"] = {}; end
 
@@ -26,13 +26,14 @@ function COLOREDITEMNAMES.getItemRarityColor(itemObj)
 
 	if (itemProp.setInfo ~= nil) then return "00FF00"; -- set piece
 	elseif (grade == 0) then return "FFBF33"; -- premium
-	elseif (grade == 1) then return "FFFFFF"; -- common
-	elseif (grade == 2) then return "108CFF"; -- rare
-	elseif (grade == 3) then return "9F30FF"; -- epic
-	elseif (grade == 4) then return "FF4F00"; -- legendary
-	end
+    elseif (grade == 1) then return "FFFFFF"; -- common
+    elseif (grade == 2) then return "108CFF"; -- rare
+    elseif (grade == 3) then return "9F30FF"; -- epic
+    elseif (grade == 4) then return "FF4F00"; -- Good old Red/Orange-ish Legendary that degraded to unique
+    elseif (grade == 5) then return "FFFF00"; -- All new Bright-Yellow legendary.
+    end
 
-	return "FFFFFF"; -- no grade (non-equipment items)
+	return "E1E1E1"; -- no grade (non-equipment items)
 
 end
 
