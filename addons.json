@@ -3,7 +3,7 @@
     "name" : "Colored Item Names",
     "file" : "coloreditemnames",
     "extension" : "ipf",
-    "fileVersion" : "v1.0.2",
+    "fileVersion" : "v1.0.3",
     "releaseTag" : "Jukopus",
     "unicode" : "☕",
     "description" : "Colorizes item names everywhere based on the item's grade/rarity (not stars). Also colors any set pieces green and colors any recipes by their crafted item's rarity instead of their own rarity.",

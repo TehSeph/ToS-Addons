@@ -1,4 +1,4 @@
---[[ v1.0.2 ]]--
+--[[ v1.0.3 - IMC F**ked it up again ]]--
 
 if _G["ADDONS"] == nil then _G["ADDONS"] = {}; end
 
@@ -15,6 +15,7 @@ function COLOREDITEMNAMES.getItemRarityColor(itemObj)
 
 	local itemProp = geItemTable.GetProp(itemObj.ClassID);
 	local grade = itemObj.ItemGrade;
+	local class = TryGetProp(itemObj, 'ClassType2') -- Why? IMC, Why?
 
 	if (itemObj.ItemType == "Recipe") then
 		-- Thank you Mie for these next four lines. Great suggestion! :)
@@ -25,12 +26,12 @@ function COLOREDITEMNAMES.getItemRarityColor(itemObj)
 	end
 
 	if (itemProp.setInfo ~= nil) then return "00FF00"; -- set piece
-	elseif (grade == 0) then return "FFBF33"; -- premium
+	elseif (grade == 0) and (class == "Premium") then return "FFBF33"; -- premium
     elseif (grade == 1) then return "FFFFFF"; -- common
     elseif (grade == 2) then return "108CFF"; -- rare
     elseif (grade == 3) then return "9F30FF"; -- epic
-    elseif (grade == 4) then return "FF4F00"; -- Good old Red/Orange-ish Legendary that degraded to unique
-    elseif (grade == 5) then return "FFFF00"; -- All new Bright-Yellow legendary.
+    elseif (grade == 4) then return "FF4F00"; -- unique
+    elseif (grade == 5) then return "FFFF00"; -- legendary
     end
 
 	return "E1E1E1"; -- no grade (non-equipment items)
@@ -59,7 +60,7 @@ function COLOREDITEMNAMES.linkItem(invItem)
 	local itemName = _G["GET_FULL_NAME_OLD"](itemObj);
 
 	local imgName = GET_ITEM_ICON_IMAGE(itemObj);
-	local imgTag = string.format("{img %s %d %d}", imgName, editCtrl:GetHeight(), editCtrl:GetHeight());
+	local imgTag = string.format("{img %s %d %d}", imgName, editCtrl:GetOriginalHeight(), editCtrl:GetOriginalHeight());
 
 	local properties = "";
 
