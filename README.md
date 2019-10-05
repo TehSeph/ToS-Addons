@@ -10,7 +10,7 @@ Before extracting, make sure every ipf file starts with `☕` (rename them if no
 
 # Addons
 
-### Colored Item Names - v1.0.2
+### Colored Item Names - v1.0.3
 
 Colorizes item names *_everywhere_* based on the item's grade/rarity (not stars). Also colors any set pieces green and colors any recipes by their crafted item's rarity instead of their own rarity.
 
@@ -26,7 +26,7 @@ Hides pet stats and disables the annoying pet ring-menu. No more pets getting in
 
 ### Are these addons safe/approved by IMC?
 
-https://treeofsavior.com/news/?n=467
+[https://treeofsavior.com/news/?n=467](https://treeofsavior.com/news/?n=467)
 
 > We have no plans on restricting add-ons that conveniently display information which can be obtained from external communities or between users.
 
