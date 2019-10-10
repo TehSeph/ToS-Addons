@@ -1,4 +1,4 @@
---[[ v1.0.3 - IMC F**ked it up again ]]--
+--[[ v1.0.4 - Better safe than sorry huh? ]]--
 
 if _G["ADDONS"] == nil then _G["ADDONS"] = {}; end
 
@@ -69,7 +69,7 @@ function COLOREDITEMNAMES.linkItem(invItem)
 		itemName = itemName .. "(" .. skillClass.Name ..")";
 		properties = GetSkillItemProperiesString(itemObj);
 	else
-		properties = GetModifiedPropertiesString(itemObj);
+		properties = GET_MODIFIED_PROPERTIES_STRING(itemObj);
 	end
 
 	if (properties == "") then properties = 'nullval'; end
