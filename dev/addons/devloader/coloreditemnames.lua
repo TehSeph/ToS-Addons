@@ -64,7 +64,7 @@ function COLOREDITEMNAMES.linkItem(invItem)
 		itemName = itemName .. "(" .. skillClass.Name ..")";
 		properties = GetSkillItemProperiesString(itemObj);
 	else
-		properties = GetModifiedPropertiesString(itemObj);
+		properties = GET_MODIFIED_PROPERTIES_STRING(itemObj);
 	end
 
 	if (properties == "") then properties = 'nullval'; end
