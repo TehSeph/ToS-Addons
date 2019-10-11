@@ -10,7 +10,7 @@ Before extracting, make sure every ipf file starts with `☕` (rename them if no
 
 # Addons
 
-### Colored Item Names - v1.0.3
+### Colored Item Names - v1.0.4
 
 Colorizes item names *_everywhere_* based on the item's grade/rarity (not stars). Also colors any set pieces green and colors any recipes by their crafted item's rarity instead of their own rarity.
 
